@@ -29,6 +29,7 @@ class Dashboard extends StatelessWidget {
                               color: Colors.black12,
                               shape: BoxShape.circle
                             ),
+                            child: Icon(Icons.menu,color: Colors.white,),
                           ),
                         ),
 
@@ -65,25 +66,60 @@ class Dashboard extends StatelessWidget {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                                color: Colors.blue,
-                                borderRadius: BorderRadius.circular(13)
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(13),
+                                boxShadow: [
+                                  BoxShadow(
+                                    offset: Offset(0,17),
+                                    blurRadius: 17,
+                                    spreadRadius: -23,
+                                    color: Colors.black12
+                                  )
+                                ]
                               ),
-                            ),Container(
+                            ),
+                            Container(
                               decoration: BoxDecoration(
-                                  color: Colors.blue,
-                                  borderRadius: BorderRadius.circular(13)
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(13),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        offset: Offset(0,17),
+                                        blurRadius: 17,
+                                        spreadRadius: -23,
+                                        color: Colors.black12
+                                    )
+                                  ]
                               ),
-                            ),Container(
+                            ),
+                            Container(
                               decoration: BoxDecoration(
-                                  color: Colors.blue,
-                                  borderRadius: BorderRadius.circular(13)
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(13),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        offset: Offset(0,17),
+                                        blurRadius: 17,
+                                        spreadRadius: -23,
+                                        color: Colors.black12
+                                    )
+                                  ]
                               ),
-                            ),Container(
+                            ),
+                            Container(
                               decoration: BoxDecoration(
-                                  color: Colors.blue,
-                                  borderRadius: BorderRadius.circular(13)
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(13),
+                                  boxShadow: [
+                                    BoxShadow(
+                                        offset: Offset(0,17),
+                                        blurRadius: 17,
+                                        spreadRadius: -23,
+                                        color: Colors.black12
+                                    )
+                                  ]
                               ),
-                            )
+                            ),
                           ],
                         ),
                       )
