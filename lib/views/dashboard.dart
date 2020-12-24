@@ -68,6 +68,10 @@ class Dashboard extends StatelessWidget {
                               decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.circular(13),
+                                  image: DecorationImage(
+                                      image: ExactAssetImage('assets/image_01.png'),
+                                      fit: BoxFit.fitHeight
+                                  ),
                                 boxShadow: [
                                   BoxShadow(
                                     offset: Offset(0,17),
@@ -82,6 +86,10 @@ class Dashboard extends StatelessWidget {
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(13),
+                                  image: DecorationImage(
+                                    image: ExactAssetImage('assets/image_02.jpg'),
+                                    fit: BoxFit.fitHeight
+                                  ),
                                   boxShadow: [
                                     BoxShadow(
                                         offset: Offset(0,17),
@@ -96,6 +104,10 @@ class Dashboard extends StatelessWidget {
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(13),
+                                  image: DecorationImage(
+                                      image: ExactAssetImage('assets/image_03.jpg'),
+                                      fit: BoxFit.fitHeight
+                                  ),
                                   boxShadow: [
                                     BoxShadow(
                                         offset: Offset(0,17),
@@ -110,6 +122,10 @@ class Dashboard extends StatelessWidget {
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(13),
+                                  image: DecorationImage(
+                                      image: ExactAssetImage('assets/image_04.jpg'),
+                                      fit: BoxFit.fitHeight
+                                  ),
                                   boxShadow: [
                                     BoxShadow(
                                         offset: Offset(0,17),
